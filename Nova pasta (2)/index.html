@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreamy Donuts | Vitrine Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="https://static.wikia.nocookie.net/simpsons/images/1/11/The_Simpsons_Pink_Donut.png/revision/latest/scale-to-width-down/180?cb=20140707161748" 
+                 alt="Donut Rosa Estilo Simpsons" 
+                 class="logo-perfil">
+            
+            <div class="header-text">
+                <h1>Dreamy Donuts</h1>
+                <p>O doce momento do seu dia.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Nossa História</h2>
+            <p>Donuts feitos à mão com ingredientes selecionados e muito carinho.</p>
+        </section>
+
+        <section id="vitrine">
+            <h2>Escolha seus Favoritos</h2>
+            
+            <article class="produto" data-preco="12.00">
+                <div class="info">
+                    <h3>Classic Glazed</h3>
+                    <p>R$ 12,00</p>
+                </div>
+                <div class="controles">
+                    <button class="btn-menos">-</button>
+                    <span class="qtd">0</span>
+                    <button class="btn-mais">+</button>
+                </div>
+            </article>
+
+            <article class="produto" data-preco="15.00">
+                <div class="info">
+                    <h3>Strawberry Dream</h3>
+                    <p>R$ 15,00</p>
+                </div>
+                <div class="controles">
+                    <button class="btn-menos">-</button>
+                    <span class="qtd">0</span>
+                    <button class="btn-mais">+</button>
+                </div>
+            </article>
+
+            <article class="produto" data-preco="18.00">
+                <div class="info">
+                    <h3>Choco-Nut Delight</h3>
+                    <p>R$ 18,00</p>
+                </div>
+                <div class="controles">
+                    <button class="btn-menos">-</button>
+                    <span class="qtd">0</span>
+                    <button class="btn-mais">+</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <div id="total-fixo">
+        <p>Total do Pedido: <strong>R$ <span id="valor-total">0,00</span></strong></p>
+        <button id="enviar-whatsapp">Pedir pelo WhatsApp</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Dreamy Donuts - Feito com carinho.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
